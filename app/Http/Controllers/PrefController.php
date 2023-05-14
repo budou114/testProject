@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class PrefController extends Controller
 {
     public function index(){
-        return view('pref');
+        $r = "2";
+        return view('sample');
     }
 }
