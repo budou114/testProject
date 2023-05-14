@@ -54,7 +54,7 @@
     <div class="content">
       <h2>Main Content</h2>
       <p>This is the main content of the page.</p>
-      @include('partial._pref')
+      @include('partial._pref', ['pref_id' => $prefId])
     </div>
   </main>
   
